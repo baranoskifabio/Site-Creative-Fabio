@@ -1,40 +1,50 @@
-header{
-    background-color: #862AEC;
-    color: #ffffff
+* {
+    margin: 0;
+    padding: 0;
 }
 
-    *{
-        margin: 0;
-        padding: 0;
-        }
-        
-        .cabecalho {
-        background-color: #862AEC;
-        color: #FFFFFF;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 24px;
-        }
+.cabecalho {
+    background-color: #862AEB;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
 
-.cabecalho-lista-item{
- display: inline-block;
- font-size: 17px;
- margin: 0 16px;
 }
 
-.Emblema-lakers{
+.cabecalho-imagem {
+    width: 10%;
+
+}
+
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+
+}
+
+.escola-imagem{
     width: 20%;
+
 }
 
+.escola{
+    background-image: linear-gradient(#862AEB,#F9D453);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 
-.Os-lakers{
- background-image: linear-gradient( #9C4BCF #F8D354 );
- color: black;
- display: flex;
- justify-content: center;
- align-items: center;
 }
 
+.escola-div-conteudo{
+    width: 35%;
 
+}
 
+.escola-titulo{
+    padding: 24px 0;
+}
