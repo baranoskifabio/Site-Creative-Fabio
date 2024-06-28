@@ -42,6 +42,12 @@
 
 .escola-div-conteudo{
     width: 35%;
+    text-align: center;
+    font-family:
+}
+
+.escola-div-conteudo{
+    width: 35%;
 
 }
 
@@ -51,4 +57,24 @@
 
 .jogador-imagem{
     width: 250px;
+}
+
+
+.jogador-icone{
+    width: 30px;
+
+}
+
+.jogador-div{
+    text-align: center;
+    padding: 20px; 
+}
+
+.jogador{
+    background-color:#FFFFFF;
+}
+
+.jogador-titulo{
+    text-align: center;
+    font-size: 32px;
 }
